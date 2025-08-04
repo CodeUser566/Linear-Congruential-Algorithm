@@ -101,7 +101,6 @@ int main() {
         // проверка на третьем элементе
         if ((A * x[2] + C) % m != x[3] % m) continue;
 
-        // нашли решение
         final_m = m;
         final_A = A;
         final_C = C;
